@@ -1,0 +1,15 @@
+.book {
+    animation: bounce 9s infinite linear;
+  }
+
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+      /* animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55); */
+    }
+    50% {
+      transform: translateY(-5%);
+      /* animation-timing-function: cubic-bezier(0.48, 0.15, 0.25, 0.96); */
+    }
+  }
